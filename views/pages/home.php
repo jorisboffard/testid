@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="Content-Language" content="fr" />
-	<title>Le premier site des photographes indépendants</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"> </script>
-	<script type="text/javascript" src="js/index.js"> </script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<!-- <script type="text/javascript" src="js/services.js"></script>
-	<script type="text/javascript" src="js/controller.js"></script> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	<link rel="stylesheet" type="text/css" href="css/hexagons.css">
-</head>
-<body data-ng-app="myApp">
-	<div data-ng-controller="topCtrl" id="main">
 		<!--  Top -->
   		<div id="top">
   			<!-- Left header: logo -->
@@ -24,8 +6,10 @@
 			</div>
 			<!-- Right header: contact + buttons social networks -->
 			<div id="top_right">
-				<img src="images/contact.jpg" alt="contact" title="contact" class="valign" />
-				<span class="contact_text">{{ contact }}</span>
+				<a href="">
+					<img src="images/contact.jpg" alt="contact" title="contact" class="valign" />
+					<span class="contact_text">{{ contact }}</span>
+				</a>
 				<img src="images/fb.jpg" alt="contact" title="contact" />
 				<img src="images/in.jpg" alt="contact" title="contact" />
 				<img src="images/twitter.jpg" alt="contact" title="contact" />
@@ -45,7 +29,9 @@
 						<li class="litrick"><a href="etudiant/html">{{ portrait }}</a></li>
 						<li><a href="etudiant/html">{{ about }}</a></li>
 						<li class="search_form">
-							<span><input type="text" class="search rounded"></span>
+							<form method="post" action="">
+								<span><input type="text" class="search rounded"></span>
+							</form>
 						</li>
 					</ul>
 				</div>
@@ -109,7 +95,7 @@
 						<span class="uppercase">{{ title1 }}</span>
 					</div>
 					<p class="desc_news">
-						{{ descNews1 }}
+						Erat autem diritatis eius hoc quoque indicium nec obscurum nec latens, quod ludicris cruentis delectabatur et in circo sex vel septem aliquotiens vetitis certaminibus pugilum vicissim se concidentium perfusorumque sanguine specie ut lucratus ingentia laetabatur.
 					</p>	
 					<div class="see_more_button">
 						<div class="button tiny_button green_blue_reverse_button uppercase readmore hand">lire plus</div>
@@ -127,7 +113,7 @@
 						<span class="uppercase">{{ title2 }}</span>
 					</div>
 					<p class="desc_news">
-						{{ descNews2 }}
+						Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem, sed amicitia remissior esse debet et liberior et dulcior et ad omnem comitatem facilitatemque proclivior.
 					</p>			
 					<div class="see_more_button">
 						<div class="button tiny_button green_blue_reverse_button uppercase readmore hand">lire plus</div>
@@ -216,7 +202,7 @@
 			</div>
 		</div>
 		
-		<!-- Footer n°1 -->
+		<!-- Footer n�1 -->
 		<div class="light_grey_frame">
 			<div id="footer1">
 				<!-- Documentation -->
@@ -246,26 +232,10 @@
 								<td><input type="text" placeholder="PRENOM" /></td>
 							</tr>
 							<tr>
-								<td colspan="2"><div class="button large_button green_blue_reverse_button hand uppercase">S'inscrire</div></td>
+								<td colspan="2"><div class="button large_button green_blue_reverse_button hand uppercase signin">S'inscrire</div></td>
 							</tr>
 						</table>
 					</form>
 				</div>
 			</div>
 		</div>
-		
-		<!-- Footer n°2 -->
-		<div id="footer2_container">
-			<div id="footer2">
-				<ul class="inline_menu">
-					<li><a href=""><img src="images/icon_f.png" /> facebook</a></li>
-					<li><a href=""><img src="images/icon_tweet.png" /> twitter</a></li>
-					<li><a href=""><img src="images/icon_in.png" /> Linkedin</a></li>
-					<li><a href=""><img src="images/icon_yt.png" /> Tumblr</a></li>
-					<li><a href=""><img src="images/icon_tumblr.png" /> YouTube</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</body>
-</html>

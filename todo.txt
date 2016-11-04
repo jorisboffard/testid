@@ -1,0 +1,26 @@
+Améliorations à apporter :
+
+* Revoir certaines images en jpg qui mériteraient d'être en png avec transparence (ok pour la plupart, mais pas forcément toutes)
+* Revoir entièrement le code AngularJS, notamment pour itérer parmi des collections d'articles ou titres / descriptions des hexagones par exemple - ce qui signifie également de structurer correctement les données JSON + structurer le code Angular correctement
+* Finir de charger les textes + les images avec Angular (je ne l'ai pas fait entièrement)
+* Vérifier le site sur différents navigateurs (navigateur utilisé : Firefox)
+* Optimiser le site pour le référencement (ce qui implique également d'ajouter des alt aux images, etc...)
+* J'ai remarqué au dernier moment que la loupe de l'input recherche n'est pas cliquable (formulaire validé uniquement en appuyant sur Entrée), à corriger
+* Il faudrait également ajouter une jolie page d'erreur (404 ou autre), ce que je n'ai pas fait
+* Revoir éventuellement quelque marges/padding qui pourraient être mieux ajustées, bien que la plupart me semblent OK.
+* Ajouter des effets à tous les liens (comme j'ai fait pour "Lire Plus" ou "S'inscrire").
+* Si le menu du haut est commun à toutes les pages, il serait judicieux de le laisser apparaître à l'écran même quand l'internaute scrolle vers le bas.
+* Utiliser des .htaccess pour sécuriser l'accès au site.
+* Ajouter le pied de page en bas du document.
+* Investir dans un ordinateur
+
+
+Parti pris :
+
+* J'ai modifié la couleur de la police dans le menu, je trouvais qu'en blanc ça ne ressortait pas très bien. Idem sur une photo où j'ai rajouté un fond transparent pour mieux voir le texte.
+* J'ai utilisé d'autres photos que celles fournies quand celles-ci avaient du texte par-dessus, pour pouvoir avoir une image entière.
+
+
+Technologies utilisées :
+
+HTML, PHP, CSS, JavaScript, JQuery, Angular

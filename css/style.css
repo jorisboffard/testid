@@ -27,6 +27,7 @@ a{
 .blue{color: #58b6d0;}
 .uppercase{text-transform: uppercase;}
 .hand{cursor: pointer;cursor: hand;}
+a{text-decoration: none;}
 
 /* BUTTONS + HR */
 .button{
@@ -116,12 +117,9 @@ a{
 	float: right;
 	margin: auto;
 }
-.contact_text{
-	padding-right: 2px;
-}
-.valign{
-	vertical-align: middle;
-}
+.contact_text{padding-right: 2px;}
+.contact_text:hover{color: #17c5a2;}
+.valign{vertical-align: middle;}
 
 /* HEADER */
 #header{
@@ -344,12 +342,12 @@ input[type=text]{
 }
 
 .desc_news{
-	display: block; /* or inline-block */
+	/*display: block;
 	text-overflow: ellipsis;
 	word-wrap: break-word;
 	overflow: hidden;
 	max-height: 2.8em;
-	line-height: 1.4em;
+	line-height: 1.4em;*/
 }
 
 /* LEE JEFFRIES */
